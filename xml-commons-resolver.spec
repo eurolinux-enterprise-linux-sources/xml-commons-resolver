@@ -1,6 +1,6 @@
 Name:           xml-commons-resolver
 Version:        1.2
-Release:        14%{?dist}
+Release:        15%{?dist}
 Epoch:          0
 Summary:        Resolver subproject of xml-commons
 License:        ASL 2.0
@@ -92,6 +92,9 @@ install -p -m 644 %{SOURCE5} %{buildroot}%{_mavenpomdir}/JPP-%{name}.pom
 %doc LICENSE.resolver.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.2-15
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.2-14
 - Update to current packaging guidelines
 
